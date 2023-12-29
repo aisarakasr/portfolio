@@ -1,0 +1,67 @@
+div {
+    /* background-image: linear-gradient(row, #4c0909); */
+    
+}
+ul {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #653819, #A46C32);
+    margin: 0;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-top: 40px;
+    margin: 0;
+}
+.card {
+    align-items: center;
+    border: 1px solid #3F6446;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center 1px;
+    border: #7f5831;
+    background-color: #A87849;
+}
+
+.img {
+    width: 260px;
+    height: auto;
+    object-fit: cover;
+}
+
+p {
+    font-size: 20px;
+}
+
+li button {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.gradiant {
+    background: linear-gradient(to bottom #4c0505 #ebbfbf);
+}
+
+@media only screen and (max-width: 600px) {
+    li {
+        width: 50%;
+    }
+  }
+
+
+  @media screen and (min-width: 768px) {
+     li {
+      width: 33%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+     li {
+      width: 30%;
+      margin: 15px
+    }
+  }
